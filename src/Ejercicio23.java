@@ -2,19 +2,24 @@ import java.util.Scanner;
 public class Ejercicio23 {
     public static void main(String[] args) {
 
-        int num;
+        int numero1 = 0;
         int positives = 0;
 
         Scanner scan = new Scanner(System.in);
 
-        for (int i = 0; i < 10; i++) {
-            num = scan.nextInt();
+        System.out.println("Ingrese 5 numeros");
 
-            if (num > 0) {
-                positives ++;
+        for (int i = 0; i < 5; i++) {
+            numero1 = scan.nextInt();
+
+            if (numero1 > 0) {
+                positives++;
             }
         }
-        System.out.println("positivos : " +positives);
+        System.out.println("positivos : " + positives);
 
+        if (numero1 == 0) {
+            scan.close();
+        }
     }
 }
