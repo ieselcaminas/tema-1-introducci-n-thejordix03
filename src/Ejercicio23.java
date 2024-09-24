@@ -7,20 +7,16 @@ public class Ejercicio23 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Ingrese 5 numeros");
+        System.out.println("Ingrese n numeros");
 
-        for (int i = 0; i < 5; i++) {
+        do {
             numero1 = scan.nextInt();
-
             if (numero1 > 0) {
-                positives++;
-            }
-            else {
-                System.out.println("FIN");
+                positives = positives + 1;
             }
         }
+        while (numero1 != 0);
+
         System.out.println("positivos : " + positives);
-
-
     }
 }
