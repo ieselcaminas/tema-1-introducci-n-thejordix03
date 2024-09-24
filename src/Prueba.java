@@ -11,10 +11,10 @@ public class Prueba {
             num = scan.nextInt();
 
             if (num > 0) {
-                positives ++;
+                positives =positives + 1;
             }
         }
-        System.out.println("positivos : " +positives);
+        System.out.println("Habia : " + positives + "positivos");
 
 
     }
