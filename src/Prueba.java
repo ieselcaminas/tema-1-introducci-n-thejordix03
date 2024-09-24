@@ -16,7 +16,6 @@ public class Prueba {
         }
         System.out.println("Habia : " + positives + "positivos");
 
-
     }
 }
 
