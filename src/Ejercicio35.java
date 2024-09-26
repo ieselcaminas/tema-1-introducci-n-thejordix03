@@ -16,6 +16,7 @@ public class Ejercicio35 {
             num = num - num2;
         } while (num >= num2);
 
+
         System.out.println("El resultado es : " + num );
 
     }
