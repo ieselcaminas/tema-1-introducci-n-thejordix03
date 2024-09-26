@@ -25,7 +25,7 @@ public class Ejercicio24 {
 
         if (contar > 0) {
             double media = sumarNotas / contar;
-            System.out.printf("La nota media es: %.2f%n", media);
+            System.out.printf("La nota media es: " + media + "...");
         }
         if (hayDiez) {
             System.out.println("Se ingresó al menos un 10.");
