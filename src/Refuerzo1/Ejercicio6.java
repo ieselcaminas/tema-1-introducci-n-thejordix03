@@ -1,4 +1,4 @@
-// Crea un programa que pida al usuario dos números enteros. Si el segundo no es cero, mostrará el
+package Refuerzo1;// Crea un programa que pida al usuario dos números enteros. Si el segundo no es cero, mostrará el
 //resultado de dividir el primero entre el segundo. Por el contrario, si el segundo número es cero, escribirá
 //"Error: No se puede dividir entre cero"
 import java.util.Scanner;

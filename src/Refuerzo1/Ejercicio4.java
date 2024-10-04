@@ -1,4 +1,4 @@
-// Crea un programa que pida al usuario un número entero. Si es múltiplo de 10, informará al usuario y pedirá
+package Refuerzo1;// Crea un programa que pida al usuario un número entero. Si es múltiplo de 10, informará al usuario y pedirá
 //un segundo número, para decir a continuación si este segundo número también es múltiplo de 10.
 import java.util.Scanner;
 public class Ejercicio4 {

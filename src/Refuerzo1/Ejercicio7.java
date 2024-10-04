@@ -1,4 +1,4 @@
-//Crea un programa en java que pida al usuario un número entero y responda si es múltiplo de 2 o de 3.
+package Refuerzo1;//Crea un programa en java que pida al usuario un número entero y responda si es múltiplo de 2 o de 3.
 import java.util.Scanner;
 public class Ejercicio7 {
     public static void main(String args[]) {
