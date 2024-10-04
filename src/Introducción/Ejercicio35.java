@@ -1,5 +1,5 @@
 package Introducción;
-
+//Realiza un programa que calcule el resto de una división usando el método de las restas sucesivas.
 import java.util.Scanner;
 public class Ejercicio35 {
     public static void main(String[] args) {
@@ -8,21 +8,20 @@ public class Ejercicio35 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("introduce un numero : ");
+        System.out.println("introduce el dividendo : ");
         num = scan.nextInt();
 
-        System.out.println("introduce otro numero : ");
+        System.out.println("introduce el divisor: ");
         num2 = scan.nextInt();
 
-        do {
-            num = num - num2;
-        } while (num >= num2);
+        while (num >= num2) {
+            num -= num2;
+        }
 
-
-        System.out.println("El resultado es : " + num );
-
+        System.out.println("El resto es: " + num2);
     }
 }
+
 
 
 

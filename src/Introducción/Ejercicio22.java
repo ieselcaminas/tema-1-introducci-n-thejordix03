@@ -1,5 +1,6 @@
+package Introducción;
 import java.util.Scanner;
-public class Prueba {
+public class Ejercicio22 {
     public static void main(String[] args) {
 
         int num;
@@ -8,14 +9,15 @@ public class Prueba {
         Scanner scan = new Scanner(System.in);
 
         for (int i = 0; i < 10; i++) {
+
+            System.out.println("Ingrese un numero: ");
             num = scan.nextInt();
 
             if (num > 0) {
-                positives =positives + 1;
+                positives ++;
             }
         }
-        System.out.println("Habia : " + positives + "positivos");
+        System.out.println("positivos : " +positives);
 
     }
 }
-
