@@ -1,6 +1,7 @@
 package Introducción;
 
 import java.util.Scanner;
+//Diseña un algoritmo que lea un conjunto de notas del teclado hasta que se introduzca -1 y muestre la nota media y si había un 10 o no.
 public class Ejercicio24 {
     public static void main(String[] args) {
 
@@ -12,7 +13,7 @@ public class Ejercicio24 {
         int nota;
 
         do {
-            System.out.print("Introduce una nota:  ");
+            System.out.print("Introduce una nota o -1 para finalizar el conteo ");
             nota = scanner.nextInt();
 
             if (nota != -1) {

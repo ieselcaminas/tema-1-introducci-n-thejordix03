@@ -3,6 +3,7 @@ package Introducción;
 import java.util.Scanner;
 public class Ejercicio35 {
     public static void main(String[] args) {
+
         int num;
         int num2;
 
@@ -13,16 +14,16 @@ public class Ejercicio35 {
 
         System.out.println("introduce el divisor: ");
         num2 = scan.nextInt();
-
-        while (num >= num2) {
-            num -= num2;
+        if (num2 == 0) {
+            System.out.println("El divisor no puede ser cero.");
+        } else {
+            // Realizamos la resta sucesiva
+            while (num >= num2) {
+                num -= num2;
+            }
+            System.out.println("El resto es: " + num);
         }
-
-        System.out.println("El resto es: " + num2);
     }
 }
-
-
-
 
 
